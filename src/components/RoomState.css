@@ -1,0 +1,21 @@
+.vacant{
+  
+  font-weight: 900;
+ 
+}
+
+.staying{
+    
+    font-weight: 900;
+   
+}
+
+.out{
+    background-color: rgb(149, 103, 232);
+    font-weight: 900;
+}
+
+.outOfOrder{
+    background-color: rgb(255, 201, 65);
+    font-weight: 900;
+}

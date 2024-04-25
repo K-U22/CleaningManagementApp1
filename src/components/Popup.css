@@ -1,0 +1,99 @@
+.overlay{
+    /*　画面全体を覆う設定　*/
+      position:fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background-color:rgba(0,0,0,0.5);
+    
+      /*　画面の中央に要素を表示させる設定　*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+    }
+
+    .content{
+        z-index:1000;
+        width: 70%;
+        height: 70%;
+        padding: 1em;
+        background:#fff;
+      }
+
+      .contentContainer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+      .contentSignIn{
+        z-index:1000;
+        width: 70%;
+        height: 80%;
+        padding: 1em;
+        background:#fff;
+      }
+      
+      
+      .buttonContainer {
+        text-align: center;
+      }
+
+      
+
+    .changeState{
+      display: inline-block; 
+      width: 150px;
+      height: 40px;
+      margin-right: 5px;
+      background-color: white;
+    }
+
+    .activeChangeState{
+      display: inline-block;
+      background-color: yellow;
+      width: 150px;
+      height: 40px;
+      margin-right: 5px;
+ 
+    }
+
+   
+
+
+
+
+    .smellButton{
+      background-color: white;
+      width: 150px;
+      height: 40px;
+      margin: 5px 5px;
+      margin-left: 1px;
+    }
+
+    .stinkButton{
+      background-color: yellow;
+      width: 150px;
+      height: 40px;
+      margin: 5px 5px;
+      margin-left: 1px;
+    }
+
+
+      .special {
+        width: 80%;
+      }
+    
+    .closeButton{
+      width: 80px;
+      height: 30px;
+      margin-right: 5px;
+    }
+    .applyButton{
+      width: 80px;
+      height: 30px;
+      margin-right: 5px;
+    }

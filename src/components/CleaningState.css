@@ -1,0 +1,21 @@
+.complete{
+    background-color: rgb(246, 255, 0);
+    font-weight: 900;
+   
+  }
+  
+.start{
+      background-color: rgb(169, 169, 169);
+      font-weight: 900;
+     
+  }
+  
+.checked{
+      background-color: rgb(255, 39, 237);
+      font-weight: 900;
+  }
+  
+.notStart{
+      background-color: rgb(255, 0, 0);
+      font-weight: 900;
+  }

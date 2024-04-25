@@ -1,0 +1,46 @@
+.signInContentContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signInbuttonContainer {
+    text-align: center;
+  }
+
+
+.signInChangeState{
+    display: inline-block; 
+    width: 150px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 20px;
+    background-color: white;
+  }
+
+  .signInActiveChangeState{
+    display: inline-block;
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+    margin-right: 5px;
+
+  }
+
+  .signInCloseButton{
+    width: 80px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  .signInApplyButton{
+    width: 80px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 30px;
+  }
+
+  .specialWrapper::placeholder {
+    color: black;
+    opacity: 0.8;
+  }

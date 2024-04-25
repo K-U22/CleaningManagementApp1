@@ -1,0 +1,43 @@
+
+
+.rectangularButton {
+    border-radius: 0%;
+    margin:3px;
+    background-color:rgb(158, 157, 157)
+  }
+  .StayRectangularButton {
+    border-radius: 0%;
+    margin:3px;
+    background-color:rgb(8, 138, 8);
+  }
+  .OutRectangularButton {
+    border-radius: 0%;
+    margin:3px;
+    background-color: rgb(149, 103, 232);
+  }
+  .OutOfOrderRectangularButton {
+    border-radius: 0%;
+    margin:3px;
+    background-color:rgb(252, 220, 138);
+  }
+
+
+.r201{
+    background-color: blue;
+    color :white;
+    position:relative;
+    margin-top: 4px;
+    
+  }
+  
+ 
+.roomState{
+    width: 70px;
+    height: 40px;
+    padding: 25px;
+}
+
+.cleaningState{
+    margin-bottom: 4px;
+}
+
